@@ -11,6 +11,40 @@
 		3E7806612C84CBD4008886BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806602C84CBD4008886BF /* ContentView.swift */; };
 		3E7806632C84CBD5008886BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7806622C84CBD5008886BF /* Assets.xcassets */; };
 		3E7806662C84CBD5008886BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7806652C84CBD5008886BF /* Preview Assets.xcassets */; };
+		3E78066D2C84D1A3008886BF /* GalleryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78066C2C84D1A3008886BF /* GalleryType.swift */; };
+		3E7806712C84D4CA008886BF /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806702C84D4CA008886BF /* AnimationsView.swift */; };
+		3E7806732C84D67E008886BF /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806722C84D67E008886BF /* Animations.swift */; };
+		3E7806762C84D734008886BF /* FadeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806752C84D734008886BF /* FadeAnimationView.swift */; };
+		3E78067A2C84DA07008886BF /* FireworkAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806792C84DA07008886BF /* FireworkAnimationView.swift */; };
+		3E78067C2C84DA23008886BF /* WaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78067B2C84DA23008886BF /* WaveAnimationView.swift */; };
+		3E78067F2C84DA5E008886BF /* ConfettiAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78067E2C84DA5E008886BF /* ConfettiAnimationView.swift */; };
+		3E7806812C84DA73008886BF /* LoadingSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806802C84DA73008886BF /* LoadingSpinnerView.swift */; };
+		3E7806832C84DA87008886BF /* GlowAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806822C84DA87008886BF /* GlowAnimationView.swift */; };
+		3E7806852C84DA9B008886BF /* DraggableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806842C84DA9B008886BF /* DraggableCardView.swift */; };
+		3E7806872C84DAAD008886BF /* RippleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806862C84DAAD008886BF /* RippleAnimationView.swift */; };
+		3E7806892C84DAC1008886BF /* ShakeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806882C84DAC1008886BF /* ShakeAnimationView.swift */; };
+		3E78068B2C84DAD1008886BF /* PathAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78068A2C84DAD1008886BF /* PathAnimationView.swift */; };
+		3E78068D2C84DADE008886BF /* CardFlipAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78068C2C84DADE008886BF /* CardFlipAnimationView.swift */; };
+		3E78068F2C84DAF2008886BF /* PulsatingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78068E2C84DAF2008886BF /* PulsatingAnimationView.swift */; };
+		3E7806912C84DB08008886BF /* ColorChangeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806902C84DB08008886BF /* ColorChangeAnimationView.swift */; };
+		3E7806932C84DB17008886BF /* RotationAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806922C84DB17008886BF /* RotationAnimationView.swift */; };
+		3E7806952C84DB27008886BF /* ScaleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806942C84DB27008886BF /* ScaleAnimationView.swift */; };
+		3E7806972C84DB36008886BF /* BounceAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806962C84DB36008886BF /* BounceAnimationView.swift */; };
+		3E7806992C84DB64008886BF /* BlinkingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806982C84DB64008886BF /* BlinkingAnimationView.swift */; };
+		3E78069B2C84DB78008886BF /* ParallaxAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78069A2C84DB78008886BF /* ParallaxAnimationView.swift */; };
+		3E78069D2C84DB89008886BF /* ZoomAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78069C2C84DB89008886BF /* ZoomAnimationView.swift */; };
+		3E78069F2C84DBA4008886BF /* FloatingButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78069E2C84DBA4008886BF /* FloatingButtonAnimationView.swift */; };
+		3E7806A12C84DBB8008886BF /* HeartbeatAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806A02C84DBB8008886BF /* HeartbeatAnimationView.swift */; };
+		3E7806A32C84DBCA008886BF /* FlipCardShadowAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806A22C84DBCA008886BF /* FlipCardShadowAnimationView.swift */; };
+		3E7806A52C84DBD7008886BF /* ProgressBarAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806A42C84DBD7008886BF /* ProgressBarAnimationView.swift */; };
+		3E7806A72C84DC10008886BF /* SlideAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806A62C84DC10008886BF /* SlideAnimationView.swift */; };
+		3E7806A92C84DD31008886BF /* ParticleExplosionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806A82C84DD31008886BF /* ParticleExplosionView.swift */; };
+		3E7806AB2C84DD50008886BF /* MagneticAttractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806AA2C84DD50008886BF /* MagneticAttractionView.swift */; };
+		3E7806AD2C84DD75008886BF /* Carousel3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806AC2C84DD75008886BF /* Carousel3DView.swift */; };
+		3E7806AF2C84DD91008886BF /* LiquidSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806AE2C84DD91008886BF /* LiquidSwipeView.swift */; };
+		3E7806B12C84DDE6008886BF /* SpringChainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806B02C84DDE6008886BF /* SpringChainView.swift */; };
+		3E7806B32C84E039008886BF /* MorphingShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806B22C84E039008886BF /* MorphingShapesView.swift */; };
+		3E7806B52C84E09F008886BF /* FireEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7806B42C84E09E008886BF /* FireEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +53,40 @@
 		3E7806602C84CBD4008886BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E7806622C84CBD5008886BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7806652C84CBD5008886BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E78066C2C84D1A3008886BF /* GalleryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryType.swift; sourceTree = "<group>"; };
+		3E7806702C84D4CA008886BF /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
+		3E7806722C84D67E008886BF /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		3E7806752C84D734008886BF /* FadeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAnimationView.swift; sourceTree = "<group>"; };
+		3E7806792C84DA07008886BF /* FireworkAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkAnimationView.swift; sourceTree = "<group>"; };
+		3E78067B2C84DA23008886BF /* WaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimationView.swift; sourceTree = "<group>"; };
+		3E78067E2C84DA5E008886BF /* ConfettiAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiAnimationView.swift; sourceTree = "<group>"; };
+		3E7806802C84DA73008886BF /* LoadingSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinnerView.swift; sourceTree = "<group>"; };
+		3E7806822C84DA87008886BF /* GlowAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowAnimationView.swift; sourceTree = "<group>"; };
+		3E7806842C84DA9B008886BF /* DraggableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableCardView.swift; sourceTree = "<group>"; };
+		3E7806862C84DAAD008886BF /* RippleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleAnimationView.swift; sourceTree = "<group>"; };
+		3E7806882C84DAC1008886BF /* ShakeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimationView.swift; sourceTree = "<group>"; };
+		3E78068A2C84DAD1008886BF /* PathAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathAnimationView.swift; sourceTree = "<group>"; };
+		3E78068C2C84DADE008886BF /* CardFlipAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipAnimationView.swift; sourceTree = "<group>"; };
+		3E78068E2C84DAF2008886BF /* PulsatingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingAnimationView.swift; sourceTree = "<group>"; };
+		3E7806902C84DB08008886BF /* ColorChangeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeAnimationView.swift; sourceTree = "<group>"; };
+		3E7806922C84DB17008886BF /* RotationAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimationView.swift; sourceTree = "<group>"; };
+		3E7806942C84DB27008886BF /* ScaleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimationView.swift; sourceTree = "<group>"; };
+		3E7806962C84DB36008886BF /* BounceAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimationView.swift; sourceTree = "<group>"; };
+		3E7806982C84DB64008886BF /* BlinkingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkingAnimationView.swift; sourceTree = "<group>"; };
+		3E78069A2C84DB78008886BF /* ParallaxAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxAnimationView.swift; sourceTree = "<group>"; };
+		3E78069C2C84DB89008886BF /* ZoomAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAnimationView.swift; sourceTree = "<group>"; };
+		3E78069E2C84DBA4008886BF /* FloatingButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonAnimationView.swift; sourceTree = "<group>"; };
+		3E7806A02C84DBB8008886BF /* HeartbeatAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatAnimationView.swift; sourceTree = "<group>"; };
+		3E7806A22C84DBCA008886BF /* FlipCardShadowAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardShadowAnimationView.swift; sourceTree = "<group>"; };
+		3E7806A42C84DBD7008886BF /* ProgressBarAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarAnimationView.swift; sourceTree = "<group>"; };
+		3E7806A62C84DC10008886BF /* SlideAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideAnimationView.swift; sourceTree = "<group>"; };
+		3E7806A82C84DD31008886BF /* ParticleExplosionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleExplosionView.swift; sourceTree = "<group>"; };
+		3E7806AA2C84DD50008886BF /* MagneticAttractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticAttractionView.swift; sourceTree = "<group>"; };
+		3E7806AC2C84DD75008886BF /* Carousel3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel3DView.swift; sourceTree = "<group>"; };
+		3E7806AE2C84DD91008886BF /* LiquidSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidSwipeView.swift; sourceTree = "<group>"; };
+		3E7806B02C84DDE6008886BF /* SpringChainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringChainView.swift; sourceTree = "<group>"; };
+		3E7806B22C84E039008886BF /* MorphingShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingShapesView.swift; sourceTree = "<group>"; };
+		3E7806B42C84E09E008886BF /* FireEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +121,8 @@
 			children = (
 				3E78065E2C84CBD4008886BF /* Custom_Animations_Swift_GalleryApp.swift */,
 				3E7806602C84CBD4008886BF /* ContentView.swift */,
+				3E78066C2C84D1A3008886BF /* GalleryType.swift */,
+				3E7806742C84D71D008886BF /* Animations */,
 				3E7806622C84CBD5008886BF /* Assets.xcassets */,
 				3E7806642C84CBD5008886BF /* Preview Content */,
 			);
@@ -65,6 +135,54 @@
 				3E7806652C84CBD5008886BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E7806742C84D71D008886BF /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3E7806702C84D4CA008886BF /* AnimationsView.swift */,
+				3E7806722C84D67E008886BF /* Animations.swift */,
+				3E78067D2C84DA4B008886BF /* AnimationViews */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		3E78067D2C84DA4B008886BF /* AnimationViews */ = {
+			isa = PBXGroup;
+			children = (
+				3E7806752C84D734008886BF /* FadeAnimationView.swift */,
+				3E7806792C84DA07008886BF /* FireworkAnimationView.swift */,
+				3E7806962C84DB36008886BF /* BounceAnimationView.swift */,
+				3E7806B42C84E09E008886BF /* FireEffectView.swift */,
+				3E7806942C84DB27008886BF /* ScaleAnimationView.swift */,
+				3E7806982C84DB64008886BF /* BlinkingAnimationView.swift */,
+				3E78069A2C84DB78008886BF /* ParallaxAnimationView.swift */,
+				3E78069C2C84DB89008886BF /* ZoomAnimationView.swift */,
+				3E78069E2C84DBA4008886BF /* FloatingButtonAnimationView.swift */,
+				3E7806A02C84DBB8008886BF /* HeartbeatAnimationView.swift */,
+				3E7806A22C84DBCA008886BF /* FlipCardShadowAnimationView.swift */,
+				3E7806922C84DB17008886BF /* RotationAnimationView.swift */,
+				3E7806A42C84DBD7008886BF /* ProgressBarAnimationView.swift */,
+				3E78068C2C84DADE008886BF /* CardFlipAnimationView.swift */,
+				3E7806902C84DB08008886BF /* ColorChangeAnimationView.swift */,
+				3E78068E2C84DAF2008886BF /* PulsatingAnimationView.swift */,
+				3E78068A2C84DAD1008886BF /* PathAnimationView.swift */,
+				3E78067E2C84DA5E008886BF /* ConfettiAnimationView.swift */,
+				3E7806882C84DAC1008886BF /* ShakeAnimationView.swift */,
+				3E7806AA2C84DD50008886BF /* MagneticAttractionView.swift */,
+				3E7806AC2C84DD75008886BF /* Carousel3DView.swift */,
+				3E7806AE2C84DD91008886BF /* LiquidSwipeView.swift */,
+				3E78067B2C84DA23008886BF /* WaveAnimationView.swift */,
+				3E7806B02C84DDE6008886BF /* SpringChainView.swift */,
+				3E7806B22C84E039008886BF /* MorphingShapesView.swift */,
+				3E7806862C84DAAD008886BF /* RippleAnimationView.swift */,
+				3E7806822C84DA87008886BF /* GlowAnimationView.swift */,
+				3E7806802C84DA73008886BF /* LoadingSpinnerView.swift */,
+				3E7806842C84DA9B008886BF /* DraggableCardView.swift */,
+				3E7806A62C84DC10008886BF /* SlideAnimationView.swift */,
+				3E7806A82C84DD31008886BF /* ParticleExplosionView.swift */,
+			);
+			path = AnimationViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +255,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E78067C2C84DA23008886BF /* WaveAnimationView.swift in Sources */,
+				3E7806812C84DA73008886BF /* LoadingSpinnerView.swift in Sources */,
+				3E7806872C84DAAD008886BF /* RippleAnimationView.swift in Sources */,
+				3E7806AF2C84DD91008886BF /* LiquidSwipeView.swift in Sources */,
 				3E7806612C84CBD4008886BF /* ContentView.swift in Sources */,
+				3E7806732C84D67E008886BF /* Animations.swift in Sources */,
+				3E7806B32C84E039008886BF /* MorphingShapesView.swift in Sources */,
+				3E7806852C84DA9B008886BF /* DraggableCardView.swift in Sources */,
+				3E7806A52C84DBD7008886BF /* ProgressBarAnimationView.swift in Sources */,
+				3E7806932C84DB17008886BF /* RotationAnimationView.swift in Sources */,
+				3E7806A72C84DC10008886BF /* SlideAnimationView.swift in Sources */,
+				3E78068D2C84DADE008886BF /* CardFlipAnimationView.swift in Sources */,
+				3E7806712C84D4CA008886BF /* AnimationsView.swift in Sources */,
+				3E78067F2C84DA5E008886BF /* ConfettiAnimationView.swift in Sources */,
+				3E78069D2C84DB89008886BF /* ZoomAnimationView.swift in Sources */,
+				3E7806762C84D734008886BF /* FadeAnimationView.swift in Sources */,
+				3E7806A32C84DBCA008886BF /* FlipCardShadowAnimationView.swift in Sources */,
+				3E78066D2C84D1A3008886BF /* GalleryType.swift in Sources */,
+				3E7806892C84DAC1008886BF /* ShakeAnimationView.swift in Sources */,
+				3E7806AB2C84DD50008886BF /* MagneticAttractionView.swift in Sources */,
+				3E78067A2C84DA07008886BF /* FireworkAnimationView.swift in Sources */,
+				3E7806832C84DA87008886BF /* GlowAnimationView.swift in Sources */,
+				3E7806972C84DB36008886BF /* BounceAnimationView.swift in Sources */,
 				3E78065F2C84CBD4008886BF /* Custom_Animations_Swift_GalleryApp.swift in Sources */,
+				3E78068F2C84DAF2008886BF /* PulsatingAnimationView.swift in Sources */,
+				3E78069F2C84DBA4008886BF /* FloatingButtonAnimationView.swift in Sources */,
+				3E78068B2C84DAD1008886BF /* PathAnimationView.swift in Sources */,
+				3E78069B2C84DB78008886BF /* ParallaxAnimationView.swift in Sources */,
+				3E7806A12C84DBB8008886BF /* HeartbeatAnimationView.swift in Sources */,
+				3E7806952C84DB27008886BF /* ScaleAnimationView.swift in Sources */,
+				3E7806912C84DB08008886BF /* ColorChangeAnimationView.swift in Sources */,
+				3E7806A92C84DD31008886BF /* ParticleExplosionView.swift in Sources */,
+				3E7806B12C84DDE6008886BF /* SpringChainView.swift in Sources */,
+				3E7806B52C84E09F008886BF /* FireEffectView.swift in Sources */,
+				3E7806992C84DB64008886BF /* BlinkingAnimationView.swift in Sources */,
+				3E7806AD2C84DD75008886BF /* Carousel3DView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Custom Animations Swift Gallery/Preview Content\"";
-				DEVELOPMENT_TEAM = T9ZCYF5F85;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -287,6 +439,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tisobyn.casg.Custom-Animations-Swift-Gallery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,10 +451,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Custom Animations Swift Gallery/Preview Content\"";
-				DEVELOPMENT_TEAM = T9ZCYF5F85;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,6 +469,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tisobyn.casg.Custom-Animations-Swift-Gallery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
