@@ -8,31 +8,62 @@
 import SwiftUI
 
 struct MagneticAttractionView: View {
-    @State private var attract = false
-    private let positions = Array(repeating: CGPoint.zero, count: 10).enumerated().map {
-        CGPoint(x: CGFloat($0.offset * 30), y: CGFloat($0.offset * 20))
-    }
+    @State private var particles: [Particle] = []
+    @State private var attractorPosition: CGPoint = .zero
 
     var body: some View {
         ZStack {
-            ForEach(positions.indices, id: \.self) { index in
+            Color.black
+                .ignoresSafeArea()
+                .onTapGesture { location in
+                    attractorPosition = location
+                    attractParticles()
+                }
+
+            // Display particles
+            ForEach(particles) { particle in
                 Circle()
-                    .fill(Color.red)
-                    .frame(width: 20, height: 20)
-                    .offset(x: attract ? 0 : positions[index].x,
-                            y: attract ? 0 : positions[index].y)
-                    .animation(.easeInOut(duration: 1), value: attract)
+                    .fill(particle.color)
+                    .frame(width: 8, height: 8)
+                    .position(particle.position)
+                    .animation(.easeOut(duration: 1), value: particle.position)
             }
         }
-        .frame(width: 200, height: 200)
-        .onTapGesture {
-            attract.toggle()
+        .onAppear {
+            createParticles()
         }
-        .padding()
         .navigationTitle("Magnetic Attraction")
+    }
+
+    // Create particles scattered randomly across the screen
+    private func createParticles() {
+        particles = (0..<50).map { _ in
+            Particle(
+                id: UUID(),
+                position: CGPoint(
+                    x: CGFloat.random(in: 0...UIScreen.main.bounds.width),
+                    y: CGFloat.random(in: 0...UIScreen.main.bounds.height)
+                ),
+                color: Color.random
+            )
+        }
+    }
+
+    // Attract particles to the tapped position
+    private func attractParticles() {
+        for index in particles.indices {
+            withAnimation {
+                particles[index].position = attractorPosition
+            }
+        }
     }
 }
 
+struct Particle: Identifiable {
+    let id: UUID
+    var position: CGPoint
+    var color: Color
+}
 
 #Preview {
     MagneticAttractionView()

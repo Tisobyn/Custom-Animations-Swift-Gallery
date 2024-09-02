@@ -62,16 +62,12 @@ enum Animations: String, Identifiable, CaseIterable, Hashable {
     // Assign a difficulty level to each animation
     var difficulty: DifficultyLevel {
         switch self {
-        case .fade, .scale, .rotate, .colorChange, .slide, .pulsate, .blinking, .progressBar, .bounce, .shake, .ripple, .draggableCard, .zoom, .heartbeat, .flipCardShadow, .cardFlip:
+        case .fade, .scale, .rotate, .colorChange, .slide, .pulsate, .blinking, .progressBar, .bounce, .shake, .ripple, .draggableCard, .zoom, .heartbeat, .flipCardShadow, .cardFlip, .path, .glow, .loadingSpinner, .liquidSwipe:
             return .simple
-        case .particleExplosion, .morphingShapes: 
+        case .confetti,.morphingShapes, .wave, .magneticAttraction, .springChain:
             return .medium
-        case .path, .glow, .loadingSpinner, .confetti, .floatingButton, .parallax:
+        case  .particleExplosion, .floatingButton, .parallax, .firework, .carousel3D:
             return .hard
-        case .wave, .firework:
-            return .hardcore
-        case .magneticAttraction, .carousel3D: return .hard
-        case .liquidSwipe, .springChain: return .hardcore
         }
     }
 }
